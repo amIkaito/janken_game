@@ -1,17 +1,50 @@
-# janke
+# じゃんけんアプリ
 
-A new Flutter project.
+Flutterを使用したじゃんけんアプリです。ユーザーが手を選ぶと、コンピュータが自動的に手を選び、勝敗を決定します。5回勝負が終わると、アラートが表示され、それぞれの勝負数と勝敗が表示されます。
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## 使用技術
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# janken_game
+## インストール方法
+
+1. このリポジトリをクローンします。
+
+```bash
+git clone https://github.com/your-username/janken_app.git
+```
+
+1. ターミナルでディレクトリに移動します。
+
+```
+cd janken_app
+```
+
+1. 依存関係をインストールします。
+
+```
+flutter pub get
+```
+
+1. アプリを実行します。
+
+```
+flutter run
+```
+
+## 使用方法
+
+1. アプリを起動します。
+2. 画面上のボタンから、自分の出す手を選びます。
+3. コンピュータが自動的に出した手との勝敗が表示されます。
+4. 5回勝負が終わると、アラートが表示され、勝敗数が表示されます。
+
+## 作成者
+
+- [佐藤海斗](hhttps://github.com/amIkaito)
+
+## ライセンス
+
+このプロジェクトは、MITライセンスの下で公開されています。詳細については、ファイルを参照してください。
